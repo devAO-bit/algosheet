@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body, #root { height: 100%; }
+  body {
+    background: #0d0d0f;
+    color: #e8e8ed;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #27272e; border-radius: 4px; }
+  ::selection { background: rgba(99,102,241,0.3); }
+}
+
+@layer components {
+  .btn-primary {
+    @apply w-full py-[10px] px-4 bg-accent text-white text-sm font-semibold rounded-lg
+           cursor-pointer transition-all duration-150
+           hover:opacity-90 active:scale-[0.99] disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply px-3 py-[6px] bg-transparent text-tx-2 text-[13px] font-medium rounded-md
+           border border-white/[0.12] cursor-pointer transition-all duration-150
+           hover:bg-surface-2 hover:text-tx;
+  }
+  .btn-icon {
+    @apply w-7 h-7 flex items-center justify-center rounded-md
+           border border-white/[0.07] bg-bg-3 text-tx-3 text-xs
+           cursor-pointer transition-all duration-150 no-underline
+           hover:bg-surface-2 hover:border-white/[0.12] hover:text-tx-2;
+  }
+  .input-field {
+    @apply w-full px-3 py-[10px] bg-surface border border-white/[0.12] rounded-lg
+           text-tx text-sm placeholder:text-tx-3 outline-none transition-all duration-150
+           focus:border-accent focus:ring-2 focus:ring-accent/20;
+  }
+  .card { @apply bg-surface border border-white/[0.07] rounded-xl; }
+  .skeleton-block { @apply bg-surface-2 rounded animate-skeleton; }
+  .badge-easy   { @apply px-2 py-[2px] text-[11px] font-semibold rounded bg-ok/10    text-ok; }
+  .badge-medium { @apply px-2 py-[2px] text-[11px] font-semibold rounded bg-warn/10  text-warn; }
+  .badge-hard   { @apply px-2 py-[2px] text-[11px] font-semibold rounded bg-danger/10 text-danger; }
+}
