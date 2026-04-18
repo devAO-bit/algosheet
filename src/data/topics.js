@@ -1,0 +1,118 @@
+export const TOPICS = [
+  {
+    id: 1, name: 'Arrays & Hashing', icon: '⬛',
+    problems: [
+      { id: 101, title: 'Two Sum', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/two-sum', articleUrl: 'https://neetcode.io' },
+      { id: 102, title: 'Contains Duplicate', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/contains-duplicate', articleUrl: 'https://neetcode.io' },
+      { id: 103, title: 'Valid Anagram', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/valid-anagram', articleUrl: 'https://neetcode.io' },
+      { id: 104, title: 'Group Anagrams', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/group-anagrams', articleUrl: 'https://neetcode.io' },
+      { id: 105, title: 'Top K Frequent Elements', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/top-k-frequent-elements', articleUrl: 'https://neetcode.io' },
+      { id: 106, title: 'Product of Array Except Self', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/product-of-array-except-self', articleUrl: 'https://neetcode.io' },
+      { id: 107, title: 'Encode and Decode Strings', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/encode-and-decode-strings', articleUrl: 'https://neetcode.io' },
+      { id: 108, title: 'Longest Consecutive Sequence', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/longest-consecutive-sequence', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+  {
+    id: 2, name: 'Two Pointers', icon: '⟺',
+    problems: [
+      { id: 201, title: 'Valid Palindrome', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/valid-palindrome', articleUrl: 'https://neetcode.io' },
+      { id: 202, title: 'Two Sum II — Input Array Is Sorted', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/two-sum-ii-input-array-is-sorted', articleUrl: 'https://neetcode.io' },
+      { id: 203, title: '3Sum', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/3sum', articleUrl: 'https://neetcode.io' },
+      { id: 204, title: 'Container With Most Water', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/container-with-most-water', articleUrl: 'https://neetcode.io' },
+      { id: 205, title: 'Trapping Rain Water', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/trapping-rain-water', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+  {
+    id: 3, name: 'Sliding Window', icon: '▦',
+    problems: [
+      { id: 301, title: 'Best Time to Buy and Sell Stock', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/best-time-to-buy-and-sell-stock', articleUrl: 'https://neetcode.io' },
+      { id: 302, title: 'Longest Substring Without Repeating Characters', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/longest-substring-without-repeating-characters', articleUrl: 'https://neetcode.io' },
+      { id: 303, title: 'Longest Repeating Character Replacement', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/longest-repeating-character-replacement', articleUrl: 'https://neetcode.io' },
+      { id: 304, title: 'Permutation in String', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/permutation-in-string', articleUrl: 'https://neetcode.io' },
+      { id: 305, title: 'Minimum Window Substring', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/minimum-window-substring', articleUrl: 'https://neetcode.io' },
+      { id: 306, title: 'Sliding Window Maximum', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/sliding-window-maximum', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+  {
+    id: 4, name: 'Stack', icon: '⧉',
+    problems: [
+      { id: 401, title: 'Valid Parentheses', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/valid-parentheses', articleUrl: 'https://neetcode.io' },
+      { id: 402, title: 'Min Stack', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/min-stack', articleUrl: 'https://neetcode.io' },
+      { id: 403, title: 'Evaluate Reverse Polish Notation', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/evaluate-reverse-polish-notation', articleUrl: 'https://neetcode.io' },
+      { id: 404, title: 'Generate Parentheses', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/generate-parentheses', articleUrl: 'https://neetcode.io' },
+      { id: 405, title: 'Daily Temperatures', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/daily-temperatures', articleUrl: 'https://neetcode.io' },
+      { id: 406, title: 'Car Fleet', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/car-fleet', articleUrl: 'https://neetcode.io' },
+      { id: 407, title: 'Largest Rectangle in Histogram', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/largest-rectangle-in-histogram', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+  {
+    id: 5, name: 'Binary Search', icon: '⌖',
+    problems: [
+      { id: 501, title: 'Binary Search', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/binary-search', articleUrl: 'https://neetcode.io' },
+      { id: 502, title: 'Search a 2D Matrix', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/search-a-2d-matrix', articleUrl: 'https://neetcode.io' },
+      { id: 503, title: 'Koko Eating Bananas', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/koko-eating-bananas', articleUrl: 'https://neetcode.io' },
+      { id: 504, title: 'Find Minimum in Rotated Sorted Array', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/find-minimum-in-rotated-sorted-array', articleUrl: 'https://neetcode.io' },
+      { id: 505, title: 'Search in Rotated Sorted Array', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/search-in-rotated-sorted-array', articleUrl: 'https://neetcode.io' },
+      { id: 506, title: 'Time Based Key-Value Store', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/time-based-key-value-store', articleUrl: 'https://neetcode.io' },
+      { id: 507, title: 'Median of Two Sorted Arrays', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/median-of-two-sorted-arrays', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+  {
+    id: 6, name: 'Linked List', icon: '⟐',
+    problems: [
+      { id: 601, title: 'Reverse Linked List', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/reverse-linked-list', articleUrl: 'https://neetcode.io' },
+      { id: 602, title: 'Merge Two Sorted Lists', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/merge-two-sorted-lists', articleUrl: 'https://neetcode.io' },
+      { id: 603, title: 'Linked List Cycle', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/linked-list-cycle', articleUrl: 'https://neetcode.io' },
+      { id: 604, title: 'Reorder List', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/reorder-list', articleUrl: 'https://neetcode.io' },
+      { id: 605, title: 'Remove Nth Node From End of List', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/remove-nth-node-from-end-of-list', articleUrl: 'https://neetcode.io' },
+      { id: 606, title: 'Copy List with Random Pointer', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/copy-list-with-random-pointer', articleUrl: 'https://neetcode.io' },
+      { id: 607, title: 'LRU Cache', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/lru-cache', articleUrl: 'https://neetcode.io' },
+      { id: 608, title: 'Merge K Sorted Lists', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/merge-k-sorted-lists', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+  {
+    id: 7, name: 'Trees', icon: '⊹',
+    problems: [
+      { id: 701, title: 'Invert Binary Tree', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/invert-binary-tree', articleUrl: 'https://neetcode.io' },
+      { id: 702, title: 'Maximum Depth of Binary Tree', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/maximum-depth-of-binary-tree', articleUrl: 'https://neetcode.io' },
+      { id: 703, title: 'Diameter of Binary Tree', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/diameter-of-binary-tree', articleUrl: 'https://neetcode.io' },
+      { id: 704, title: 'Balanced Binary Tree', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/balanced-binary-tree', articleUrl: 'https://neetcode.io' },
+      { id: 705, title: 'Same Tree', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/same-tree', articleUrl: 'https://neetcode.io' },
+      { id: 706, title: 'Subtree of Another Tree', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/subtree-of-another-tree', articleUrl: 'https://neetcode.io' },
+      { id: 707, title: 'Lowest Common Ancestor of a BST', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree', articleUrl: 'https://neetcode.io' },
+      { id: 708, title: 'Binary Tree Level Order Traversal', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/binary-tree-level-order-traversal', articleUrl: 'https://neetcode.io' },
+      { id: 709, title: 'Serialize and Deserialize Binary Tree', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/serialize-and-deserialize-binary-tree', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+  {
+    id: 8, name: 'Graphs', icon: '◎',
+    problems: [
+      { id: 801, title: 'Number of Islands', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/number-of-islands', articleUrl: 'https://neetcode.io' },
+      { id: 802, title: 'Clone Graph', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/clone-graph', articleUrl: 'https://neetcode.io' },
+      { id: 803, title: 'Max Area of Island', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/max-area-of-island', articleUrl: 'https://neetcode.io' },
+      { id: 804, title: 'Pacific Atlantic Water Flow', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/pacific-atlantic-water-flow', articleUrl: 'https://neetcode.io' },
+      { id: 805, title: 'Course Schedule', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/course-schedule', articleUrl: 'https://neetcode.io' },
+      { id: 806, title: 'Number of Connected Components in an Undirected Graph', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com', articleUrl: 'https://neetcode.io' },
+      { id: 807, title: 'Redundant Connection', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/redundant-connection', articleUrl: 'https://neetcode.io' },
+      { id: 808, title: 'Word Ladder', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/word-ladder', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+  {
+    id: 9, name: 'Dynamic Programming', icon: '◈',
+    problems: [
+      { id: 901, title: 'Climbing Stairs', difficulty: 'easy', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/climbing-stairs', articleUrl: 'https://neetcode.io' },
+      { id: 902, title: 'House Robber', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/house-robber', articleUrl: 'https://neetcode.io' },
+      { id: 903, title: 'House Robber II', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/house-robber-ii', articleUrl: 'https://neetcode.io' },
+      { id: 904, title: 'Coin Change', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/coin-change', articleUrl: 'https://neetcode.io' },
+      { id: 905, title: 'Longest Increasing Subsequence', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/longest-increasing-subsequence', articleUrl: 'https://neetcode.io' },
+      { id: 906, title: 'Word Break', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/word-break', articleUrl: 'https://neetcode.io' },
+      { id: 907, title: 'Combination Sum IV', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/combination-sum-iv', articleUrl: 'https://neetcode.io' },
+      { id: 908, title: 'Unique Paths', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/unique-paths', articleUrl: 'https://neetcode.io' },
+      { id: 909, title: 'Longest Common Subsequence', difficulty: 'medium', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/longest-common-subsequence', articleUrl: 'https://neetcode.io' },
+      { id: 910, title: 'Edit Distance', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/edit-distance', articleUrl: 'https://neetcode.io' },
+      { id: 911, title: 'Burst Balloons', difficulty: 'hard', youtubeUrl: 'https://youtube.com', practiceUrl: 'https://leetcode.com/problems/burst-balloons', articleUrl: 'https://neetcode.io' },
+    ],
+  },
+]
+
+export const TOTAL_PROBLEMS = TOPICS.reduce((acc, t) => acc + t.problems.length, 0)
